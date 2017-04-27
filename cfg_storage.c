@@ -1,6 +1,7 @@
 
 typedef struct __attribute__((__packed__)){
-	uint32_t 
+	uint8_t epoch;
+	uint8_t ver;
 	
 }pool_descriptor;
 
@@ -15,3 +16,4 @@ struct cfg_storage {
 	struct cfg_pool	pool[2];
 	uint8_t		epoch;
 };
+
